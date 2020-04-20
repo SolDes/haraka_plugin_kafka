@@ -1,0 +1,25 @@
+{
+  "name": "haraka_plugin_kafka",
+  "version": "1.0.0",
+  "description": "Kafka plugin for Haraka.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint *.js test/*.js",
+    "lintfix": "npx eslint --fix *.js test/*.js",
+    "test": "npx mocha --exit"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "Daniel Ferro <dlcerva@gmail.com.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-plugin-haraka": "1.0.13",
+    "haraka-test-fixtures": "1.0.30",
+    "mocha": "7.1.1"
+  },
+  "dependencies": {
+    "kafkajs": "^1.12.0"
+  }
+}
